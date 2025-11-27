@@ -15,6 +15,7 @@ pkgs.mkShell {
     rust
   ] ++ (with pkgs; [
     pkg-config
+    rustlings
     # other dependencies
     #gtk3
     #wrapGAppsHook
